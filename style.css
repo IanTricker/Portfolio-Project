@@ -1,0 +1,116 @@
+.box
+{
+    width: 60vw;
+    height: 20vw;
+    overflow: auto;
+    padding:20px;
+}
+
+.box::-webkit-scrollbar {
+  display: none;
+}
+
+body
+{
+    background-color: #212121;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-height: fit-content;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    display: inline-flex;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 2.4vw; 
+  }
+  
+  .overlay-title
+  {
+    position: absolute;
+    top: 17%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 50%;
+    display: inline-flex;
+  }
+
+  button
+  {
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: transparent;
+  }
+
+  
+  
+  ul li {
+    color: white;
+    list-style-type: square;
+    font-family: Public Pixel;
+    text-decoration:none;
+    margin: 10px;
+    text-decoration-thickness: 10px;
+  }
+  
+p
+{
+  font-size: 2vw;
+  color: white;
+  font-family: Helvetica;
+}
+
+h3
+{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 7vw;
+  transition: 0.5s;
+  font-family: Public Pixel;
+  display: inline-block;
+  margin-top: 1rem;
+  text-shadow: 2px 2px 4px #000000;
+  -webkit-animation: rainbow 10s infinite; 
+}
+
+h3:hover {
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc,
+      0 3px 0 #ccc, 0 4px 0 #ccc,
+      0 5px 0 #ccc, 0 6px 0 #ccc,
+      0 7px 0 #ccc, 0 8px 0 #ccc,
+      0 9px 0 #ccc, 0 10px 0 #ccc,
+      0 11px 0 #ccc, 0 12px 0 #ccc,
+      0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+
+@-webkit-keyframes rainbow{
+  0%{color: violet;}  
+  10%{color: lightblue;} 
+  20%{color: cyan;}
+  30%{color: lightgreen;}
+  40%{color: yellowgreen;}
+  50%{color: yellow;}
+  60%{color: orange;}
+  70%{color: orangered;}
+  80%{color: red;}
+  90%{color: plum;}
+  100%{color: violet;}
+}
+

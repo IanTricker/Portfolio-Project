@@ -1,0 +1,121 @@
+.box
+{
+  height: 30vw;
+  overflow: auto;
+}
+
+body
+{
+    background-color: #212121;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-height: fit-content;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    display: inline-flex;
+    position: absolute;
+    top: 55%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+  }
+  
+  .overlay-title
+  {
+    position: absolute;
+    top: 17%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 50%;
+    display: inline-flex;
+    border: 5px solid black;
+    background-color: black;
+    border-radius: 10px;
+
+  }
+
+  button
+  {
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: transparent;
+  }
+
+  
+  
+  ul li {
+    color: white;
+    list-style-type: square;
+    font-family: Public Pixel;
+    text-decoration:none;
+    margin: 10px;
+    text-decoration-thickness: 10px;
+  }
+  
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 1.5vw; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 1vw; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 1.3vw; /* Add a top margin */
+  margin-bottom: 2vw; /* Bottom margin */
+  resize:vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 1.5vw 2vw;
+  border: none;
+  border-radius: 1vw;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 1vw;
+  background-color: #f2f2f2;
+  padding: 2vw;
+}
+
+.fort
+{
+  background-color: #04AA6D;
+  color: white;
+  padding: 1.5vw 2vw;
+  border: none;
+  border-radius: 1vw;
+  cursor: pointer;
+}
+
+.fort:hover
+{
+  background-color: #04AA6D;
+  color: white;
+  padding: 1.5vw 2vw;
+  border: none;
+  border-radius: 1vw;
+  cursor: pointer;
+}
